@@ -1,0 +1,27 @@
+body{
+    background-image: url(./assets/pexels-photo-262513.jpeg);
+   background-size: cover;
+}
+
+.nav-wrapper{
+    padding:0 100px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex: 3;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topnav{
+ display: flex;
+ flex: 1;
+ justify-content: space-evenly;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
