@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 .header {
   background-image: url(./assets/pexels-photo-262513.jpeg);
   background-size: cover;
@@ -48,8 +49,7 @@ a:link {
 .writing {
   position: absolute;
   top: 80px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .img-wrapper {
