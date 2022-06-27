@@ -1,30 +1,82 @@
-body{
-    background-image: url(./assets/pexels-photo-262513.jpeg);
-   background-size: cover;
+.header {
+  background-image: url(./assets/pexels-photo-262513.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+  position: relative;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
 }
 
-.nav-wrapper{
-    padding:0 100px;
-    display: flex;
-    align-items:center ;
-    justify-content: space-between;
-    
+.nav-wrapper {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid black 4px;
+  background-color: rgb(5, 1, 1);
+  margin: 8px;
 }
-.logo{
-    display: flex;
-    flex: 3;
-    color: green;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.logo {
+  display: flex;
+  flex: 3;
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.topnav{
- display: flex;
- flex: 1;
- justify-content: space-evenly;
+.topnav {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
 }
 a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(161, 151, 151);
+  opacity: 0.4;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.writing {
+  position: absolute;
+  top: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.recycle {
+  width: 350px;
+  height: 350px;
+  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
+  ;
+  border-radius: 20px;
+}
+.greening {
+  width: 350px;
+  height: 350px;
+  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
+  ;
+  border-radius: 20px;
+}
+.clean-city {
+  width: 350px;
+  height: 350px;
+  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
+  ;
+  border-radius: 20px;
+}
