@@ -8,6 +8,7 @@ body{
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    
 }
 .logo{
     display: flex;
@@ -25,3 +26,5 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
+
+  
