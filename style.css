@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .header {
-  background-image: url(./assets/pexels-photo-262513.jpeg);
+  background-image: url(./assets/pexels-photo-886521.webp);
   background-size: cover;
   background-repeat: no-repeat;
   /* z-index: 1; */
@@ -17,13 +17,13 @@
   justify-content: space-between;
   border: solid black 4px;
   background-color: rgb(5, 1, 1);
-  margin: 8px;
+
 }
 .logo {
   display: flex;
   flex: 3;
-  color: green;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: hwb(120 20% 47%);
+  font-family: 'Pacifico', cursive;
 }
 .topnav {
   display: flex;
@@ -49,7 +49,7 @@ a:link {
 .writing {
   position: absolute;
   top: 80px;
-  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
 }
 
 .img-wrapper {
@@ -57,26 +57,37 @@ a:link {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 100px;
 }
 .recycle {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
   ;
   border-radius: 20px;
 }
 .greening {
-  width: 350px;
-  height: 350px;
-  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
-  ;
+  width: 300px;
+  height: 300px;
+  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86);
   border-radius: 20px;
 }
+.greening .hover{
+}
 .clean-city {
-  width: 350px;
-  height: 350px;
-  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86)
-  ;
+  width: 300px;
+  height: 300px;
+  box-shadow:0px 0px 13px 10px rgba(55,58,67,0.86);
   border-radius: 20px;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  width: 600px;
+  font-size: larger;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  width: 500px;
+
 }
