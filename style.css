@@ -63,6 +63,7 @@ a:link {
   padding: 10px;
   flex-wrap: wrap;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .card-text {
 text-align: center;
@@ -107,12 +108,12 @@ text-align: center;
 
 p{
   font-family: 'Oswald', sans-serif;
-  width: 1200px;
-  font-size: 30px;
+  width:900px;
+  font-size: 20px;
 }
 h2{
   font-family: 'Oswald', sans-serif;
-  font-size:50px;
+  font-size:40px;
   width: 600px;
 }
 
@@ -120,3 +121,82 @@ h3{
   font-size: 30px;
 }
 
+/* .footer {
+  display: flex;
+  flex-wrap: wrap;
+
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  font-family: 'Segoe UI';
+  font-size: 400;
+  background-color: rgb(5, 1, 1);
+} */
+
+.footer {
+  padding: 40px 0px;
+  background-color:#4d4c4d;
+}
+
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid rgb(33, 24, 77);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.7;
+}
+
+.footer .social a:hover {
+  opacity: 1;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: #aaa;
+}
