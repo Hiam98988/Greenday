@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&family=Poppins:wght@200&display=swap');
 body{
-    background-color: grey;
+    background-color:rgb(104, 102, 102);
 }
 
 /* .nav-wrapper {
@@ -34,7 +34,6 @@ h1{ display: flex;
 
 p{
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     width: 500px;
     height: auto;
@@ -66,5 +65,5 @@ p{
     justify-content: center;
     color: green;
     border-radius: 20px;
-    margin: 30px;   
+    margin: 70; 
 }

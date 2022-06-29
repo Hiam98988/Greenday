@@ -1,15 +1,27 @@
 body{
-    background-color: gray;
+    background-color: rgb(53, 69, 53);
 }
 h1{
     display: flex;
-    justify-content: center;
-    color: darkslategrey;
-
+    justify-content:center;
+    box-shadow: 1px 1px 7px 7px rgba(157,167,116,0.97);
+}
+ 
+p{
+    display: flex;
+    font-size: larger;
+    width: 500px;
+    height: auto;
+    font-weight: bold;
+    font-family:'Josefin Sans', sans-serif; 
 }
 .img{
-    display: flex;
-    justify-content: center;
-   padding: 50px 50px 50px 50px;
-   
+    display:flex;
+    width: 700px;
+    margin-top: 80px;
+}
+
+.button{
+
+
 }
